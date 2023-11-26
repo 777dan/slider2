@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="slideshow">
+        <div id="wrap">
+            <img id="slider" src="images/image1.jpg">
+        </div>
+        <div id="miniatures">
+            <img src="images/image1.jpg" class="mini">
+            <img src="images/image2.jpg" class="mini">
+            <img src="images/image3.jpg" class="mini">
+        </div>
+        <div id="control-buttons">
+            <button id="next">&lt;</button>
+            <button id="start">Start</button>
+            <button id="stop">Stop</button>
+            <button id="prev">&gt;</button>
+        </div>
+        <form name="effects">
+            <input type="radio" name="effect" value="none" checked> none
+            <input type="radio" name="effect" value="go"> go
+            <input type="radio" name="effect" value="fade"> fade
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
