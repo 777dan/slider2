@@ -41,8 +41,10 @@ const miniatures = document.querySelectorAll(".mini");
 for (let i = 0; i < miniatures.length; i++) {
     miniatures[i].addEventListener('click', (event) => {
         let imageMini = event.target;
-        slider.src = imageMini.src;
         changeEffect();
+        setTimeout(() => {
+            slider.src = imageMini.src;
+        }, 400);
     });
 }
 

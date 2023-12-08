@@ -28,5 +28,6 @@
 }
 
 .go {
+    opacity: 0 !important;
     left: 520px !important;
 }
